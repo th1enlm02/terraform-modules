@@ -28,12 +28,8 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-# Lambda build artifacts
-builds/
-__pycache__/
+# Zip archive
 *.zip
-.tox
+builds
 
-# Local editors/macos files
 .DS_Store
-.idea
